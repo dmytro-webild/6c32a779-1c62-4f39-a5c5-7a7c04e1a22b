@@ -32,21 +32,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Services",
-          id: "pricing",
-        },
+          name: "Services",          id: "pricing"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="PAWYARD"
     />
@@ -56,97 +48,54 @@ export default function LandingPage() {
       <HeroBillboardTestimonial
       useInvertedBackground={false}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="PAWYARD"
       description="We handle the mess. You enjoy the yard."
       testimonials={[
         {
-          name: "Sarah J.",
-          handle: "@sarahj",
-          testimonial: "Finally, a yard service that just gets it. My dog loves the space, and I love the lack of poop.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/striped-zen-sand-background-health-wellbeing-concept_53876-128448.jpg",
-        },
+          name: "Sarah J.",          handle: "@sarahj",          testimonial: "Finally, a yard service that just gets it. My dog loves the space, and I love the lack of poop.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/striped-zen-sand-background-health-wellbeing-concept_53876-128448.jpg"},
         {
-          name: "Mike B.",
-          handle: "@mikeb",
-          testimonial: "Reliable, fast, and always friendly. The best in Melbourne.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/water-wave-texture-background-beige-design_53876-142873.jpg",
-        },
+          name: "Mike B.",          handle: "@mikeb",          testimonial: "Reliable, fast, and always friendly. The best in Melbourne.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/water-wave-texture-background-beige-design_53876-142873.jpg"},
         {
-          name: "Lucy T.",
-          handle: "@lucyt",
-          testimonial: "Super professional and the sanitization is a huge plus.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/lines-chocolate-crumbs_23-2147896441.jpg",
-        },
+          name: "Lucy T.",          handle: "@lucyt",          testimonial: "Super professional and the sanitization is a huge plus.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/lines-chocolate-crumbs_23-2147896441.jpg"},
         {
-          name: "David K.",
-          handle: "@davidk",
-          testimonial: "My lawn has never looked better. Professional and thorough.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/cracked-crack-wallpaper-graphic-scratch_1194-9516.jpg",
-        },
+          name: "David K.",          handle: "@davidk",          testimonial: "My lawn has never looked better. Professional and thorough.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/cracked-crack-wallpaper-graphic-scratch_1194-9516.jpg"},
         {
-          name: "Emma R.",
-          handle: "@emmar",
-          testimonial: "Life saver for a busy pet owner. Highly recommend their services.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-border-collie-dog-havin-fun-outsde_23-2149304003.jpg",
-        },
+          name: "Emma R.",          handle: "@emmar",          testimonial: "Life saver for a busy pet owner. Highly recommend their services.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-border-collie-dog-havin-fun-outsde_23-2149304003.jpg"},
       ]}
       buttons={[
         {
-          text: "Book a Free Inspection",
-          href: "#contact",
-        },
+          text: "Book a Free Inspection",          href: "#contact"},
       ]}
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/beautiful-border-collie-dog-havin-fun-outsde_23-2149304037.jpg",
-          alt: "User avatar",
-        },
+          src: "http://img.b2bpic.net/free-photo/beautiful-border-collie-dog-havin-fun-outsde_23-2149304037.jpg",          alt: "User avatar"},
         {
-          src: "http://img.b2bpic.net/free-photo/happy-pet-dogs-playing-grass_1359-219.jpg",
-          alt: "User avatar",
-        },
+          src: "http://img.b2bpic.net/free-photo/happy-pet-dogs-playing-grass_1359-219.jpg",          alt: "User avatar"},
         {
-          src: "http://img.b2bpic.net/free-photo/happy-pretty-woman-park-running-with-boston-terrier-dog-smiling-positive-mood-trendy-summer-style-wearing-orange-dress-playing-with-pet-having-fun-colorful-active-weekend-vacation-sneakers_285396-5218.jpg",
-          alt: "User avatar",
-        },
+          src: "http://img.b2bpic.net/free-photo/happy-pretty-woman-park-running-with-boston-terrier-dog-smiling-positive-mood-trendy-summer-style-wearing-orange-dress-playing-with-pet-having-fun-colorful-active-weekend-vacation-sneakers_285396-5218.jpg",          alt: "User avatar"},
         {
-          src: "http://img.b2bpic.net/free-photo/eco-volunteer-picking-up-litter-lawn_74855-2152.jpg",
-          alt: "User avatar",
-        },
+          src: "http://img.b2bpic.net/free-photo/eco-volunteer-picking-up-litter-lawn_74855-2152.jpg",          alt: "User avatar"},
         {
-          src: "http://img.b2bpic.net/free-photo/vertical-shot-several-trees-green-landscape_181624-13357.jpg",
-          alt: "User avatar",
-        },
+          src: "http://img.b2bpic.net/free-photo/vertical-shot-several-trees-green-landscape_181624-13357.jpg",          alt: "User avatar"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/abstract-natural-grungy-texture-background_23-2149110398.jpg?_wi=1"
+      imageSrc="http://img.b2bpic.net/free-photo/abstract-natural-grungy-texture-background_23-2149110398.jpg"
       marqueeItems={[
         {
-          type: "text",
-          text: "Melbourne Based",
-        },
+          type: "text",          text: "Melbourne Based"},
         {
-          type: "text",
-          text: "Vet Approved",
-        },
+          type: "text",          text: "Vet Approved"},
         {
-          type: "text",
-          text: "Same-day Service",
-        },
+          type: "text",          text: "Same-day Service"},
         {
-          type: "text",
-          text: "Fully Sanitized",
-        },
+          type: "text",          text: "Fully Sanitized"},
         {
-          type: "text",
-          text: "Professional Crew",
-        },
+          type: "text",          text: "Professional Crew"},
       ]}
     />
   </div>
@@ -156,14 +105,9 @@ export default function LandingPage() {
       useInvertedBackground={false}
       heading={[
         {
-          type: "text",
-          content: "At PawYard, we're passionate dog lovers on a mission to keep Melbourne yards clean, safe, and enjoyable for both pets and owners. Operating within a 10km radius of the city, our energetic team has over one year of hands-on experience in professional dog waste removal, offering tailored services that suit every household.",
-        },
+          type: "text",          content: "At PawYard, we're passionate dog lovers on a mission to keep Melbourne yards clean, safe, and enjoyable for both pets and owners. Operating within a 10km radius of the city, our energetic team has over one year of hands-on experience in professional dog waste removal, offering tailored services that suit every household."},
         {
-          type: "image",
-          src: "http://img.b2bpic.net/free-photo/young-happy-smiling-woman-orange-dress-having-fun-playing-running-with-dog-park-summer-style-cheerful-mood_285396-5203.jpg",
-          alt: "About PawYard",
-        },
+          type: "image",          src: "http://img.b2bpic.net/free-photo/young-happy-smiling-woman-orange-dress-having-fun-playing-running-with-dog-park-summer-style-cheerful-mood_285396-5203.jpg",          alt: "About PawYard"},
       ]}
     />
   </div>
@@ -175,51 +119,27 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "poop-patrol",
-          name: "Poop Patrol",
-          price: "$33",
-          features: [
-            "Standard yard cleanup",
-            "Every week",
-            "Sealed waste disposal",
-          ],
+          id: "poop-patrol",          name: "Poop Patrol",          price: "$33",          features: [
+            "Standard yard cleanup",            "Every week",            "Sealed waste disposal"],
           buttons: [
             {
-              text: "Select",
-              href: "#contact",
-            },
+              text: "Select",              href: "#contact"},
           ],
         },
         {
-          id: "golden-scooper",
-          name: "Golden Scooper",
-          price: "$48",
-          features: [
-            "Thorough cleanup",
-            "Bi-weekly cleaning",
-            "Sealed waste disposal",
-          ],
+          id: "golden-scooper",          name: "Golden Scooper",          price: "$48",          features: [
+            "Thorough cleanup",            "Bi-weekly cleaning",            "Sealed waste disposal"],
           buttons: [
             {
-              text: "Select",
-              href: "#contact",
-            },
+              text: "Select",              href: "#contact"},
           ],
         },
         {
-          id: "top-dog",
-          name: "Top Dog",
-          price: "$97",
-          features: [
-            "Complete yard cleanup",
-            "Single visit",
-            "Sanitized removal",
-          ],
+          id: "top-dog",          name: "Top Dog",          price: "$97",          features: [
+            "Complete yard cleanup",            "Single visit",            "Sanitized removal"],
           buttons: [
             {
-              text: "Select",
-              href: "#contact",
-            },
+              text: "Select",              href: "#contact"},
           ],
         },
       ]}
@@ -235,36 +155,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Free Inspection",
-          description: "We visit your yard within 10km of the city.",
-          bentoComponent: "reveal-icon",
-          icon: Search,
-          imageSrc: "http://img.b2bpic.net/free-photo/people-helping-neighbors-with-grass-lawn_23-2149139745.jpg",
-          imageAlt: "dog waste removal equipment",
+          title: "Free Inspection",          description: "We visit your yard within 10km of the city.",          bentoComponent: "reveal-icon",          icon: Search,
         },
         {
-          title: "Choose Plan",
-          description: "Select the service that works best for your dog.",
-          bentoComponent: "reveal-icon",
-          icon: CheckCircle,
-          imageSrc: "http://img.b2bpic.net/free-photo/abstract-natural-grungy-texture-background_23-2149110398.jpg?_wi=2",
-          imageAlt: "dog waste removal equipment",
+          title: "Choose Plan",          description: "Select the service that works best for your dog.",          bentoComponent: "reveal-icon",          icon: CheckCircle,
         },
         {
-          title: "Email Booking",
-          description: "Drop us a line at pawyard18@gmail.com.",
-          bentoComponent: "reveal-icon",
-          icon: Mail,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-happy-smiling-woman-orange-dress-having-fun-playing-running-with-dog-park-summer-style-cheerful-mood_285396-5203.jpg",
-          imageAlt: "dog waste removal equipment",
+          title: "Email Booking",          description: "Drop us a line at pawyard18@gmail.com.",          bentoComponent: "reveal-icon",          icon: Mail,
         },
         {
-          title: "We Get It Done",
-          description: "One-time cleanups often done same-day.",
-          bentoComponent: "reveal-icon",
-          icon: Zap,
-          imageSrc: "http://img.b2bpic.net/free-photo/cute-stylish-family-playing-field_1157-28089.jpg",
-          imageAlt: "dog waste removal equipment",
+          title: "We Get It Done",          description: "One-time cleanups often done same-day.",          bentoComponent: "reveal-icon",          icon: Zap,
         },
       ]}
       title="Our Process"
@@ -278,20 +178,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",
-          title: "Sanitization",
-          content: "We use vet-approved disinfectants on every tool at every job site.",
-        },
+          id: "1",          title: "Sanitization",          content: "We use vet-approved disinfectants on every tool at every job site."},
         {
-          id: "2",
-          title: "Disease Prevention",
-          content: "We work to prevent parvovirus and other bacteria cross-contamination.",
-        },
+          id: "2",          title: "Disease Prevention",          content: "We work to prevent parvovirus and other bacteria cross-contamination."},
         {
-          id: "3",
-          title: "Disposal",
-          content: "Waste is sealed airtight and put in your red bin. Takeaway is available for $2/visit.",
-        },
+          id: "3",          title: "Disposal",          content: "Waste is sealed airtight and put in your red bin. Takeaway is available for $2/visit."},
       ]}
       title="Hygiene & Safety"
       description="Your pet's health is our top priority."
@@ -306,25 +197,13 @@ export default function LandingPage() {
       tag="Expert Care"
       metrics={[
         {
-          id: "1",
-          value: "10km",
-          description: "Local Melbourne radius",
-        },
+          id: "1",          value: "10km",          description: "Local Melbourne radius"},
         {
-          id: "2",
-          value: "1yr+",
-          description: "Professional experience",
-        },
+          id: "2",          value: "1yr+",          description: "Professional experience"},
         {
-          id: "3",
-          value: "Daily",
-          description: "One-time cleanup availability",
-        },
+          id: "3",          value: "Daily",          description: "One-time cleanup availability"},
         {
-          id: "4",
-          value: "Vet",
-          description: "Approved hygiene protocols",
-        },
+          id: "4",          value: "Vet",          description: "Approved hygiene protocols"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -334,18 +213,13 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       text="Your yard deserves to be a safe, clean space for your dogs to play. Email us at pawyard18@gmail.com or follow our mess-free journey on Instagram @pawyardmelb."
       buttons={[
         {
-          text: "Email Us",
-          href: "mailto:pawyard18@gmail.com",
-        },
+          text: "Email Us",          href: "mailto:pawyard18@gmail.com"},
         {
-          text: "Instagram",
-          href: "https://instagram.com/pawyardmelb",
-        },
+          text: "Instagram",          href: "https://instagram.com/pawyardmelb"},
       ]}
     />
   </div>
@@ -354,29 +228,19 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "PawYard",
-          items: [
+          title: "PawYard",          items: [
             {
-              label: "About Us",
-              href: "#about",
-            },
+              label: "About Us",              href: "#about"},
             {
-              label: "Services",
-              href: "#pricing",
-            },
+              label: "Services",              href: "#pricing"},
           ],
         },
         {
-          title: "Contact",
-          items: [
+          title: "Contact",          items: [
             {
-              label: "Email: pawyard18@gmail.com",
-              href: "mailto:pawyard18@gmail.com",
-            },
+              label: "Email: pawyard18@gmail.com",              href: "mailto:pawyard18@gmail.com"},
             {
-              label: "Instagram: @pawyardmelb",
-              href: "https://instagram.com/pawyardmelb",
-            },
+              label: "Instagram: @pawyardmelb",              href: "https://instagram.com/pawyardmelb"},
           ],
         },
       ]}

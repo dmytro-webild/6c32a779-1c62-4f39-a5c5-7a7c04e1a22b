@@ -82,7 +82,7 @@ export default function LandingPage() {
         {
           src: "http://img.b2bpic.net/free-photo/eco-volunteer-picking-up-litter-lawn_74855-2152.jpg",          alt: "User avatar"},
         {
-          src: "http://img.b2bpic.net/free-photo/vertical-shot-several-trees-green-landscape_181624-13357.jpg",          alt: "User avatar"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CeIWJjRBebY3FK4pn4XIQYKuGE/uploaded-1777261052540-7vbvjeis.png",          alt: "User avatar"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/abstract-natural-grungy-texture-background_23-2149110398.jpg"
       marqueeItems={[

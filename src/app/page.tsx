@@ -125,7 +125,7 @@ export default function LandingPage() {
           alt: "User avatar",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/abstract-natural-grungy-texture-background_23-2149110398.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/abstract-natural-grungy-texture-background_23-2149110398.jpg?_wi=1"
       marqueeItems={[
         {
           type: "text",
@@ -247,7 +247,7 @@ export default function LandingPage() {
           description: "Select the service that works best for your dog.",
           bentoComponent: "reveal-icon",
           icon: CheckCircle,
-          imageSrc: "http://img.b2bpic.net/free-photo/abstract-natural-grungy-texture-background_23-2149110398.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/abstract-natural-grungy-texture-background_23-2149110398.jpg?_wi=2",
           imageAlt: "dog waste removal equipment",
         },
         {

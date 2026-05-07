@@ -10,8 +10,8 @@ import { DM_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'PawYard | Melbourne Dog Waste Removal',
-  description: 'Professional and playful dog waste removal service for Melbourne pet owners. Keeping your yard clean, safe, and happy.',
+  title: "PawYard | Melbourne Dog Waste Removal",
+  description: "Professional and playful dog waste removal service for Melbourne pet owners. Keeping your yard clean, safe, and happy.",
   keywords: ["dog waste removal, Melbourne, yard cleanup, pet service, dog waste disposal"],
 };
 
